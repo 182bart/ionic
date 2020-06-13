@@ -1,26 +1,86 @@
 <ion-app>
-  <ion-header>
-    <ion-toolbar>
-      <ion-title>WSB 13.06.2020</ion-title>
+  <ion-header >
+    <ion-toolbar color="primary" class="ion-padding-5px ion-padding-horizontal">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="1">
+            <div><ion-icon name="person-circle-outline" size="large"></ion-icon></div>
+          </ion-col>
+          <ion-col size="6">
+            <div><ion-title>User Name</ion-title></div>
+          </ion-col>
+          <ion-col size="1" offset="2"> 
+            <div  ><ion-icon name="search-outline" size="large" ></ion-icon></div>
+          </ion-col>
+          <ion-col size="1" offset="1">
+            <div><ion-icon name="apps-outline" size="large"></ion-icon></div>
+          </ion-col>
+        </ion-row>
+        </ion-grid>
     </ion-toolbar>
   </ion-header>
 
+
+  
+
   <ion-content class="ion-padding">
-    <ion-grid>
-      <ion-row>
-        <ion-col class="ion-float-left">
-          <div>
-            <h3>float-left</h3>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac vehicula lorem.
-          </div>
-        </ion-col>
-        <ion-col class="ion-float-right ion-hide-lg-down">
-          <div>
-            <h3>float-right</h3>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac vehicula lorem.
-          </div>
-        </ion-col>
-      </ion-row>
-    </ion-grid>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>
+
+          <ion-icon name="person-circle-outline" size="medium"></ion-icon>
+          User Name
+          <ion-icon name="ellipsis-vertical-outline"></ion-icon>
+
+        </ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+        Keep close to Nature's heart... and break clear away, once in awhile,
+        and climb a mountain or spend a week in the woods. Wash your spirit clean.
+        
+      </ion-card-content>
+      <ion-item><img src="../../assets/town.jpg" alt=""></ion-item>
+      <ion-item>
+        <ion-icon name="thumbs-up-outline" ></ion-icon>
+        <div  class="">Like</div>
+        <ion-icon name="chatbubble-ellipses-outline"  class="ion-margin-start"></ion-icon>
+        <div> Comment</div>
+        <ion-icon class="ion-margin-start" name="push-outline"></ion-icon>
+        <div > Share</div>
+      </ion-item>
+
+      
+    </ion-card>
+    
+    
   </ion-content>
+
+
+
+
+  <ion-footer>
+    <ion-toolbar class="ion-padding-start">
+      <ion-grid>
+        <ion-row> 
+          <ion-col >
+            <div> <ion-icon name="home-outline" size="large"></ion-icon></div>
+          </ion-col>
+          <ion-col>
+            <div ><ion-icon name="people-outline" size="large"></ion-icon></div>
+          </ion-col>
+          <ion-col>
+            <div ><ion-icon name="chatbubbles-outline" size="large"></ion-icon></div>
+          </ion-col>
+          <ion-col>
+            <div><ion-icon name="notifications-outline" size="large"></ion-icon></div>
+          </ion-col>
+          <ion-col>
+            <div><ion-icon name="briefcase-outline" size="large"></ion-icon></div>
+          </ion-col>
+        </ion-row>
+        </ion-grid>
+
+    </ion-toolbar>
+  </ion-footer>
 </ion-app>
